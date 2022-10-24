@@ -70,6 +70,7 @@ img {
 /*Шапка сайту*/
 .header {
   background-color: var(--white-color);
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header .main-navigation {
@@ -226,6 +227,7 @@ img {
 /*Чим ми займаємося*/
 .work-list {
   display: flex;
+  padding-bottom: 94px;
 }
 
 .work-item:not(:last-child) {
